@@ -48,7 +48,7 @@ var ApiCall = (function () {
         var _this = this;
     $.ajax({
             context: _this,
-            url: 'http://m3app-2014.comactivity.com.au:20014/m3api-rest/execute/PPS200MI/GetHead?CONO=' + cono + '&PUNO='+puno,
+            url: 'http://172.31.22.5:16401/m3api-rest/execute/PPS200MI/GetHead?CONO=' + cono + '&PUNO='+puno,
             type: 'GET',
             async:false,
             dataType: 'json',
